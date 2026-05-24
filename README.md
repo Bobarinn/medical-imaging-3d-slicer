@@ -2,7 +2,7 @@
 
 Segmentation and volumetric analysis in [3D Slicer](https://www.slicer.org/) — part of a broader **3D printing & robotics** portfolio.
 
-**[Live demo](https://your-vercel-url.vercel.app)** · `npm run dev` → http://localhost:3456
+**[GitHub](https://github.com/Bobarinn/medical-imaging-3d-slicer)** · **[Deploy on Vercel](https://vercel.com/new/clone?repository-url=https://github.com/Bobarinn/medical-imaging-3d-slicer)** · `npm run dev` → http://localhost:3456
 
 ---
 

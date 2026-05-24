@@ -1,0 +1,9 @@
+{
+  "name": "medical-imaging-3d-slicer",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx --yes serve . -p 3456",
+    "start": "npx --yes serve . -p 3456"
+  }
+}

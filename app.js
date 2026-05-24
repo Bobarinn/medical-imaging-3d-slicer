@@ -1,3 +1,6 @@
+const LIVE_URL = 'https://3d-slicer.vercel.app/';
+const REPO_URL = 'https://github.com/Bobarinn/medical-imaging-3d-slicer';
+
 const SKILLS = [
   '3D Slicer', 'Segment Editor', 'Intensity thresholding',
   'Morphological operations', 'Islands / connected components',
@@ -28,7 +31,6 @@ function Hero() {
         <div className="row"><span>Portfolio</span><span>Kolade</span></div>
         <div className="row"><span>Software</span><span>3D Slicer · STL</span></div>
         <div className="row"><span>Artifacts</span><span>02</span></div>
-        <div className="row"><span>Site</span><span>index.html</span></div>
       </div>
     </section>
   );
@@ -241,8 +243,9 @@ function Footer() {
         <p>3D Slicer public sample datasets only. No patient data.</p>
       </div>
       <div className="col">
-        <h4>Run locally</h4>
-        <p><code style={{ color: 'var(--accent)' }}>npm run serve</code> → localhost:3456</p>
+        <h4>Links</h4>
+        <a href={REPO_URL} target="_blank" rel="noreferrer">GitHub repo</a>
+        <a href={LIVE_URL} target="_blank" rel="noreferrer">Live site</a>
       </div>
     </footer>
   );
@@ -256,6 +259,7 @@ function App() {
         <nav>
           <a href="#artifact-ct">01 / CT</a>
           <a href="#artifact-mr">02 / MR</a>
+          <a href={REPO_URL} target="_blank" rel="noreferrer">github</a>
           <a href="#contact">contact</a>
         </nav>
       </header>

@@ -2,7 +2,7 @@
 
 Segmentation and volumetric analysis in [3D Slicer](https://www.slicer.org/) — part of a broader **3D printing & robotics** portfolio.
 
-**[GitHub](https://github.com/Bobarinn/medical-imaging-3d-slicer)** · **[Deploy on Vercel](https://vercel.com/new/clone?repository-url=https://github.com/Bobarinn/medical-imaging-3d-slicer)** · `npm run dev` → http://localhost:3456
+**[Live site](https://3d-slicer.vercel.app/)** · **[GitHub](https://github.com/Bobarinn/medical-imaging-3d-slicer)**
 
 ---
 
@@ -65,9 +65,10 @@ git lfs track "*.stl"
 
 ```bash
 npm run dev
+# http://localhost:3456
 ```
 
-Requires a static server (STL fetch + Babel compile).
+Requires a static server (STL fetch + Babel compile). Production: [3d-slicer.vercel.app](https://3d-slicer.vercel.app/).
 
 ---
 

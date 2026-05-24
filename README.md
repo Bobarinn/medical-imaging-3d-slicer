@@ -1,8 +1,10 @@
 # Medical Imaging & 3D Segmentation
 
-Segmentation and volumetric analysis in [3D Slicer](https://www.slicer.org/) — part of a broader **3D printing & robotics** portfolio.
+**Portfolio — Kolade Abobarin**
 
-**[Live site](https://3d-slicer.vercel.app/)** · **[GitHub](https://github.com/Bobarinn/medical-imaging-3d-slicer)**
+Programs & Operations Manager, Baylor University ELC (Common Makerspace & Creative Media). I support student 3D work — medical imaging, slicing, and printing in filament or resin.
+
+[kolade_abobarin1@baylor.edu](mailto:kolade_abobarin1@baylor.edu) · [Live site](https://3d-slicer.vercel.app/) · [GitHub](https://github.com/Bobarinn/medical-imaging-3d-slicer)
 
 ---
 
@@ -72,6 +74,6 @@ Requires a static server (STL fetch + Babel compile). Production: [3d-slicer.ver
 
 ---
 
-**Kolade** · [victorkolade.dev](https://victorkolade.dev) · koladeabobarin@gmail.com
+**Kolade Abobarin** · [kolade_abobarin1@baylor.edu](mailto:kolade_abobarin1@baylor.edu) · [victorkolade.dev](https://victorkolade.dev)
 
 Sample data: 3D Slicer public datasets only.

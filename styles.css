@@ -115,6 +115,22 @@ header.site nav a:hover { color: var(--accent); }
 
 .skills { margin-bottom: 96px; }
 
+.about {
+  margin-bottom: 96px;
+  max-width: 720px;
+}
+.about-text {
+  font-size: 16px;
+  color: var(--text-dim);
+  line-height: 1.65;
+  margin: 0 0 12px;
+}
+.about-email {
+  margin: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+}
+
 .section-label {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 11px;

@@ -21,17 +21,33 @@ function Hero() {
       <div>
         <h1>Medical image<br />segmentation, in <em>3D</em>.</h1>
         <p className="lede">
+          Portfolio page for <strong style={{ color: 'var(--text)', fontWeight: 500 }}>Kolade Abobarin</strong>.
           Segmentation and volumetric analysis in{' '}
           <a href="https://www.slicer.org/" target="_blank" rel="noreferrer">3D&nbsp;Slicer</a>
-          {' '}— part of a broader 3D printing &amp; robotics practice. Two pipelines
-          (CT chest, MR brain tumor) from sample DICOM to quantified STL meshes.
+          {' '}— sample CT and MR pipelines from DICOM to quantified STL meshes.
         </p>
       </div>
       <div className="meta">
-        <div className="row"><span>Portfolio</span><span>Kolade</span></div>
+        <div className="row"><span>Name</span><span>Kolade Abobarin</span></div>
         <div className="row"><span>Software</span><span>3D Slicer · STL</span></div>
         <div className="row"><span>Artifacts</span><span>02</span></div>
       </div>
+    </section>
+  );
+}
+
+function About() {
+  return (
+    <section className="about" id="about">
+      <div className="section-label">About</div>
+      <p className="about-text">
+        Programs &amp; Operations Manager at Baylor University ELC — Common Makerspace
+        &amp; Creative Media. I help students with 3D projects: medical imaging, slicing,
+        and printing in filament or resin.
+      </p>
+      <p className="about-email">
+        <a href="mailto:kolade_abobarin1@baylor.edu">kolade_abobarin1@baylor.edu</a>
+      </p>
     </section>
   );
 }
@@ -236,6 +252,7 @@ function Footer() {
       <div className="col">
         <h4>Contact</h4>
         <a href="https://victorkolade.dev" target="_blank" rel="noreferrer">victorkolade.dev</a>
+        <a href="mailto:kolade_abobarin1@baylor.edu">kolade_abobarin1@baylor.edu</a>
         <a href="mailto:koladeabobarin@gmail.com">koladeabobarin@gmail.com</a>
       </div>
       <div className="col">
@@ -255,7 +272,7 @@ function App() {
   return (
     <div className="page">
       <header className="site">
-        <div className="id"><span className="dot" />KOLADE · MEDICAL IMAGING</div>
+        <div className="id"><span className="dot" />KOLADE ABOBARIN · MEDICAL IMAGING</div>
         <nav>
           <a href="#artifact-ct">01 / CT</a>
           <a href="#artifact-mr">02 / MR</a>
@@ -264,6 +281,7 @@ function App() {
         </nav>
       </header>
       <Hero />
+      <About />
       <Skills />
       <ArtifactCT />
       <ArtifactMR />
